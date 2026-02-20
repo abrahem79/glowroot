@@ -92,11 +92,11 @@
 
   <properties>
     <grpc.version>1.72.0</grpc.version>
-    <protobuf.version>3.25.3</protobuf.version>
+    <protobuf.version>3.25.5</protobuf.version>
     <protoc.version>3.25.3</protoc.version>
     <!-- need to stick to netty version that is used by grpc version above -->
     <netty.version>4.1.110.Final</netty.version>
-    <logback.version>1.2.13</logback.version>
+    <logback.version>1.5.25</logback.version>
     <slf4j.version>1.7.36</slf4j.version>
     <immutables.version>2.10.1</immutables.version>
     <checker.version>3.42.0</checker.version>
@@ -196,7 +196,7 @@
       <dependency>
         <groupId>com.fasterxml.jackson.core</groupId>
         <artifactId>jackson-core</artifactId>
-        <version>2.18.1</version>
+        <version>2.21.0</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.core</groupId>
@@ -226,7 +226,7 @@
       <dependency>
         <groupId>org.assertj</groupId>
         <artifactId>assertj-core</artifactId>
-        <version>3.25.3</version>
+        <version>3.27.7</version>
       </dependency>
       <dependency>
         <groupId>org.mockito</groupId>
@@ -257,7 +257,7 @@
       <dependency>
         <groupId>org.apache.tomcat.embed</groupId>
         <artifactId>tomcat-embed-core</artifactId>
-        <version>8.5.88</version>
+        <version>9.0.112</version>
       </dependency>
       <dependency>
         <groupId>org.apache.tomcat.embed</groupId>
@@ -267,7 +267,7 @@
       <dependency>
         <groupId>org.apache.tomcat.embed</groupId>
         <artifactId>tomcat-embed-websocket</artifactId>
-        <version>8.5.88</version>
+        <version>8.5.99</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
