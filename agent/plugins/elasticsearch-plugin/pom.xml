@@ -139,7 +139,7 @@
           <!-- this is to resolve maven enforcer RequireUpperBoundDeps error -->
           <groupId>com.fasterxml.jackson.core</groupId>
           <artifactId>jackson-core</artifactId>
-          <version>2.8.10</version> <!-- $NO-MVN-MAN-VER$ -->
+          <version>2.18.6</version> <!-- $NO-MVN-MAN-VER$ -->
           <scope>test</scope>
         </dependency>
       </dependencies>
