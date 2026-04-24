@@ -147,7 +147,7 @@
       <artifactId>jackrabbit-core</artifactId>
       <!-- this is the latest version compiled to jdk 5 and therefore the latest version to include
         JSR bytecode since JSR bytecode was deprecated in jdk 6 -->
-      <version>2.5.0</version>
+      <version>2.22.2</version>
       <scope>test</scope>
     </dependency>
     <dependency>
