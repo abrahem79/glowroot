@@ -114,7 +114,7 @@
       </activation>
       <properties>
         <elasticsearch.version>6.5.4</elasticsearch.version>
-        <log4j.version>2.14.1</log4j.version>
+        <log4j.version>2.25.4</log4j.version>
       </properties>
       <dependencies>
         <dependency>
@@ -139,7 +139,7 @@
           <!-- this is to resolve maven enforcer RequireUpperBoundDeps error -->
           <groupId>com.fasterxml.jackson.core</groupId>
           <artifactId>jackson-core</artifactId>
-          <version>2.8.10</version> <!-- $NO-MVN-MAN-VER$ -->
+          <version>2.18.6</version> <!-- $NO-MVN-MAN-VER$ -->
           <scope>test</scope>
         </dependency>
       </dependencies>
@@ -174,7 +174,7 @@
     <profile>
       <id>elasticsearch-2.x</id>
       <properties>
-        <elasticsearch.version>2.4.6</elasticsearch.version>
+        <elasticsearch.version>8.19.8</elasticsearch.version>
       </properties>
       <dependencies>
         <dependency>
