@@ -24,12 +24,12 @@
     <apache.httpclient3x.version>3.1</apache.httpclient3x.version>
     <apache.httpcore.version>4.4.14</apache.httpcore.version>
     <asynchttpclient1x.version>1.9.40</asynchttpclient1x.version>
-    <asynchttpclient2x.version>2.12.3</asynchttpclient2x.version>
+    <asynchttpclient2x.version>2.15.0</asynchttpclient2x.version>
     <wiremock.version>2.27.2</wiremock.version>
     <okhttpclient.version>4.9.2</okhttpclient.version>
     <okhttpclient2x.version>2.7.5</okhttpclient2x.version>
     <cxf.version>3.4.5</cxf.version>
-    <spring.version>5.3.23</spring.version>
+    <spring.version>7.0.7</spring.version>
     <axis.version>1.4</axis.version>
   </properties>
 
@@ -456,7 +456,7 @@
         <dependency>
           <groupId>org.springframework</groupId>
           <artifactId>spring-web</artifactId>
-          <version>2.0.8</version>
+          <version>7.0.7</version>
           <scope>test</scope>
         </dependency>
         <dependency>
