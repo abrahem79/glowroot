@@ -22,7 +22,7 @@
     <!-- version 2.6+ require Java 11 -->
     <hsqldb.version>2.5.2</hsqldb.version>
     <postgresql.version>42.2.24.jre7</postgresql.version>
-    <mssql.version>9.4.0.jre8</mssql.version>
+    <mssql.version>11.2.0.jre8</mssql.version>
     <commons.dbcp.version>1.4</commons.dbcp.version>
     <commons.dbcp2.version>2.9.0</commons.dbcp2.version>
     <tomcat.version>8.5.72</tomcat.version>
