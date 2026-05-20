@@ -19,7 +19,7 @@
   <properties>
     <!-- instrumented libraries -->
     <!-- kafka-clients 2.0.0+ requires Java 8+ -->
-    <kafka.version>1.1.1</kafka.version>
+    <kafka.version>3.9.2</kafka.version>
   </properties>
 
   <dependencies>
